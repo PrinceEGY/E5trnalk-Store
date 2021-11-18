@@ -61,7 +61,7 @@ a {
 .cont1 {
   margin-top: 100px;
   min-width: 300px;
-  font-size: 4vmin;
+  font-size: 2vmax;
 }
 #startshopping {
   display: inline-block;
