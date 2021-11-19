@@ -8,12 +8,12 @@ body {
   background-color: rgb(34, 34, 34);
   color: white;
 }
-#backgroundimg {
+/* #backgroundimg {
   background-image: url(Images/Untitled-3.png);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 75vh;
-}
+} */
 #headbar {
   display: flex;
   align-items: center;
@@ -82,7 +82,6 @@ a {
   padding: 0 25px;
 }
 .row {
-  /* min-height: 600px; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -90,8 +89,8 @@ a {
 .catagory {
   flex: 1;
   background-color: rgb(255, 251, 241);
-  /* border: solid #f4b41a 2px; */
-  flex-basis: 30%;
+  flex-basis: 24%;
+  max-width: 25%;
   min-width: 300px;
   margin-left: 10px;
   text-align: center;
