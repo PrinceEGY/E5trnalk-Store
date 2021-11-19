@@ -16,7 +16,7 @@ body {
 }
 #bg-color {
   max-width: 1300px;
-  background-color: rgb(34, 34, 34);
+  /* background-color: rgb(34, 34, 34); */
   margin: auto;
   padding: 50px 10px;
   display: flex;
