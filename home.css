@@ -117,11 +117,6 @@ a {
   margin: auto;
   padding: 0 25px;
 }
-#bg-color {
-  /* width: 100v; */
-  color: #143d59;
-  /* background-color: white; */
-}
 .img1 {
   flex-basis: 25%;
   padding: 10px;

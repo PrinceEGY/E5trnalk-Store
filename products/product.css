@@ -9,10 +9,16 @@ body {
   color: white;
 }
 #backgroundimg {
-  background-image: url(Images/Untitled-3.png);
+  background-image: url(../Images/Untitled-3.png);
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 75vh;
+  /* min-height: 75vh; */
+}
+#bg-color {
+  max-width: 1300px;
+  background-color: rgb(34, 34, 34);
+  margin: auto;
+  padding: 50px 10px;
 }
 #headbar {
   display: flex;
@@ -192,4 +198,38 @@ a {
 }
 #stores img {
   width: 140px;
+}
+.content-2 {
+  color: #f4b41a;
+  justify-content: space-between;
+  margin: 40px 10px 50px;
+  font-size: x-large;
+}
+select {
+  border: 2px solid #f4b41a;
+  width: 200px;
+  padding: 5px;
+  font-size: 25px;
+}
+select:focus {
+  outline: none;
+}
+#pages {
+  margin: 0 auto 80px;
+}
+#pages span {
+  font-size: 20px;
+  display: inline-block;
+  margin-right: 10px;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  border: 2px solid black;
+  color: black;
+  background-color: #f4b41a;
+}
+#pages span:hover {
+  border: 2px solid #f4b41a;
+  color: black;
+  background-color: white;
 }
