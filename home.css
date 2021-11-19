@@ -90,7 +90,8 @@ a {
 }
 .catagory {
   flex: 1;
-  background-color: #ce9000;
+  background-color: rgb(255, 247, 224);
+  border: solid #f4b41a 5px;
   flex-basis: 30%;
   min-width: 300px;
   margin-left: 20px;
@@ -105,7 +106,7 @@ a {
 }
 .catagory h4 {
   margin-bottom: 20px;
-  color: #ffffff;
+  color: #1a1a1a;
 }
 .catagory:hover {
   transform: scale(110%);
