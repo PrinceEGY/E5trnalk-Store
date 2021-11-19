@@ -19,6 +19,8 @@ body {
   background-color: rgb(34, 34, 34);
   margin: auto;
   padding: 50px 10px;
+  display: flex;
+  flex-direction: column;
 }
 #headbar {
   display: flex;
@@ -216,6 +218,7 @@ select:focus {
 }
 #pages {
   margin: 0 auto 80px;
+  align-items: center;
 }
 #pages span {
   font-size: 20px;
