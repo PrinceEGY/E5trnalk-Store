@@ -28,10 +28,6 @@ body {
   flex: 1;
   font-size: xx-large;
 }
-#bar ul {
-  display: inline-block;
-  list-style-type: none;
-}
 #bar ul li {
   display: inline-block;
   margin-left: 20px;
