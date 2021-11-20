@@ -245,7 +245,7 @@ select:focus {
 }
 #my-img {
   border-radius: 50%;
-  max-width: 25%;
+  max-width: 30%;
   border: #f4b41a dotted 3px;
   padding: 5px;
 }
