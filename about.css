@@ -9,7 +9,7 @@ body {
   color: white;
 }
 #backgroundimg {
-  background-image: url(../Images/Untitled-3.png);
+  background-image: url(Images/Untitled-3.png);
   background-repeat: no-repeat;
   background-size: cover;
   /* min-height: 75vh; */
@@ -18,7 +18,7 @@ body {
   max-width: 1300px;
   background-color: rgb(34, 34, 34);
   margin: auto;
-  padding: 0px 20px;
+  padding: 70px;
   display: flex;
   flex-direction: column;
   border: #f4b41a solid;
@@ -60,10 +60,12 @@ a {
   text-align: center;
 }
 .content {
+  max-width: 1300px;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   flex-wrap: wrap;
   justify-content: space-around;
+  /* flex-direction: column; */
 }
 .cont1 {
   margin-top: 100px;
@@ -237,4 +239,18 @@ select:focus {
   border: 2px solid #f4b41a;
   color: black;
   background-color: white;
+}
+#about-p {
+  font-size: x-large;
+}
+#my-img {
+  border-radius: 50%;
+  max-width: 25%;
+  border: #f4b41a dotted 3px;
+  padding: 5px;
+}
+.about-me {
+  margin: 0 30px;
+  flex: 1;
+  flex-basis: 45%;
 }
