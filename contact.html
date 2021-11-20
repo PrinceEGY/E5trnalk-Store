@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>متجر إخترنالك - إتصل بنا</title>
     <link rel="icon" href="Images/icon-page.png">
-    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
@@ -32,18 +32,59 @@
     <!-- About Us -->
     <div id="featureditems">
         <div id="bg-color">
-            <div id="about-p">
-                <h1 style="color: #f4b41a;">معلومات عن إخترنالك</h1><br>
-                <p>إخترنالك بيقدم العلامات التجارية الرائدة عالمياً وبيجهز مجموعة منتجات شاملة من أصناف منوعة منها الملابس والساعات والنظارات، مجموعة المنتجات مدعمة بخدمات شاملة لما بعد البيع مثل الضمان الممتد الأمد والتوصيل المجاني حتى باب المنزل.</p>
-                <br><h2 style="color: #f4b41a;">مصمم الموقع</h2><br>
-                <div class="content">
-                    <img id="my-img" class="about-me" src="Images/my-img.png" alt="">
-                    <div class="about-me">
-                        <br>
-                        <h3>أحمد محسن عوض</h3>
-                        <p>طالب بكلية حاسبات ومعلومات - الفرقة الثانية</p>
-                        <p></p>
+            <div id="contact-p">
+                <h1 style="color: #f4b41a; font-size: xx-large;">إتصل بنا</h1><br>
+                <div id="contact-container">
+                    <div class="contact-row">
+                        <img src="Images/location.png" alt="">
+                        <div class="text">
+                            <h4>موقعنا</h4>
+                            <p>كلية حاسبات ومعلومات - جامعة المنصورة</p>
+                        </div>
                     </div>
+                    <div class="contact-row">
+                        <img src="Images/call.png" alt="">
+                        <div class="text">
+                            <h4>أرقامنا</h4>
+                            <p>01010101010</p>
+                            <p>01212121212</p>
+                        </div>
+                    </div>
+                    <div class="contact-row">
+                        <img src="Images/time.png" alt="">
+                        <div class="text">
+                            <h4>أوقات العمل</h4>
+                            <p>10:00صباحاَ إلى 11:00 مسائاً</p>
+                        </div>
+                    </div><br>
+                </div>
+                <h2 style="color: #f4b41a; font-size: xx-large;">للشكاوي والإقتراحات</h2><br>
+                
+                <div id="div-container">
+                    <div id="form-container">
+                        <div id="row1">
+                            <span>الإسم الأول*</span>
+                            <span>الإسم الأخير*</span>
+                            <span>البريد الإلكتروني*</span>
+                            <span>الشكوى او الإقتراح*</span>
+                            <span>الموضوع*</span>
+                            <span>التعليق*</span>
+                        </div>
+                        <form id="row1">
+                            <input class="inp" required type="text">
+                            <input class="inp" required type="text">
+                            <input class="inp" required type="email">
+                            <select required>
+                                <option disabled selected>إختر من هنا</option>
+                                <option>تقديم إقتراح</option>
+                                <option>استفسار عام</option>
+                                <option>تقديم شكوى</option>
+                            </select>
+                            <input class="inp" required type="text">
+                            <input class="inp" required id="notes" type="text">
+                        </div>
+                        <input id="submit" type="submit" value="إرسال">
+                    </form>
                 </div>
             </div>
         </div>

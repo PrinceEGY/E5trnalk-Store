@@ -246,11 +246,20 @@ select:focus {
 #my-img {
   border-radius: 50%;
   max-width: 30%;
-  border: #f4b41a dotted 3px;
+  border: #f4b41a dashed 3px;
   padding: 5px;
 }
 .about-me {
   margin: 0 30px;
   flex: 1;
   flex-basis: 45%;
+}
+#location {
+  border: #f4b41a 3px;
+  border-style: dashed;
+  padding: 5px;
+}
+#location iframe {
+  width: 100%;
+  height: 500px;
 }
