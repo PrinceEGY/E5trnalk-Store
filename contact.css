@@ -307,7 +307,7 @@ select:focus {
 }
 #submit:hover {
   transition: 250ms;
-  border: #444444 solid 1px;
+  border: #444444 solid 2px;
   background-color: #f4b41a;
   color: white;
 }
