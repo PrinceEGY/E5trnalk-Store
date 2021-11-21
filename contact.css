@@ -32,11 +32,13 @@ body {
   flex: 1;
 }
 #logo img {
-  width: 50%;
+  width: 75%;
 }
 #bar {
-  flex: 1;
+  flex: 2;
   font-size: xx-large;
+  text-align: left;
+  margin-left: 75px;
 }
 #bar ul {
   display: inline-block;
@@ -303,9 +305,9 @@ select:focus {
 }
 #submit:hover {
   transition: 250ms;
-  border: #444444 solid 2px;
+  border: #ad8016 solid 2px;
   background-color: #f4b41a;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 textarea {
   border: 1px solid #f4b41a;

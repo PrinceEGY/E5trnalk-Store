@@ -32,11 +32,13 @@ body {
   flex: 1;
 }
 #logo img {
-  width: 50%;
+  width: 75%;
 }
 #bar {
-  flex: 1;
+  flex: 2;
   font-size: xx-large;
+  text-align: left;
+  margin-left: 75px;
 }
 #bar ul {
   display: inline-block;
@@ -248,6 +250,10 @@ select:focus {
   max-width: 30%;
   border: #f4b41a dashed 3px;
   padding: 5px;
+  transition: 500ms;
+}
+#my-img:hover {
+  border-radius: 20% 0%;
 }
 .about-me {
   margin: 0 30px;

@@ -3,9 +3,9 @@
 <html lang="en" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>متجر إخترنالك - حول المتجر</title>
+    <title>متجر إخترنالك - حسابي</title>
     <link rel="icon" href="Images/icon-page.png">
-    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="accout.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
@@ -22,9 +22,9 @@
                     <ul>
                         <li><a href="Home.html">الرئيسية</a></li>
                         <li><a href="Products.html">المنتجات</a></li>
-                        <li><a href="">حول المتجر</a></li>
+                        <li><a href="about.html">حول المتجر</a></li>
                         <li><a href="contact.html">اتصل بنا</a></li>
-                        <li><a href="account.html">حسابي</a></li>
+                        <li><a href="">حسابي</a></li>
                     </ul>
                 </div>
             </div>
@@ -33,22 +33,27 @@
     <!-- About Us -->
     <div id="featureditems">
         <div id="bg-color">
-            <div id="about-p">
-                <h1 style="color: #f4b41a;">معلومات عن إخترنالك</h1><br>
-                <p>إخترنالك بيقدم العلامات التجارية الرائدة عالمياً وبيجهز مجموعة منتجات شاملة من أصناف منوعة منها الملابس والساعات والنظارات، مجموعة المنتجات مدعمة بخدمات شاملة لما بعد البيع مثل الضمان الممتد الأمد والتوصيل المجاني حتى باب المنزل.</p>
-                <br><h2 style="color: #f4b41a;">مصمم الموقع</h2><br>
-                <div class="content">
-                    <img id="my-img" class="about-me" src="Images/my-img.png" alt="">
-                    <div class="about-me">
-                        <br>
-                        <h3>أحمد محسن عوض</h3>
-                        <p>طالب بكلية حاسبات ومعلومات - الفرقة الثانية</p>
-                        <p></p>
-                    </div>
+            <h1 style="color: #f4b41a; font-size: xx-large;">الحساب الشخصي</h1>
+            <div id="container-2">
+                <div class="acc-opt" id="sign-in">
+                    <span class="sign-title"> تسجيل الدخول</span>
+                    <form>
+                        <input required class="inp-sign" type="text" placeholder="إسم المستخدم"><br>
+                        <input required class="inp-sign" type="password" placeholder="كلمة السر"><br>
+                        <input type="checkbox" value=""> تذكرني <br> 
+                        <input class="inp-submit" type="submit" value="تسجيل الدخول">
+                    </form>                    
                 </div>
-                <br><h2 style="color: #f4b41a;">موقع المتجر</h2><br>
-                <div id="location">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6836.6993594281685!2d31.355514687280273!3d31.044363555553186!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f79e7f1814c72f%3A0x5544724c6a1ad25a!2z2YPZhNmK2Kkg2K3Yp9iz2KjYp9iqINmIINin2YTZhdi52YTZiNmF2KfYqiDYrNin2YXYudipINin2YTZhdmG2LXZiNix2Kk!5e0!3m2!1sar!2seg!4v1637420001279!5m2!1sar!2seg"></iframe>
+                <div class="acc-opt" id="sign-up">
+                    <span class="sign-title"> إنشاء حساب</span>
+                    <form>
+                        <input required class="inp-sign" type="text" placeholder="إسم المستخدم"><br>
+                        <input required class="inp-sign" type="password" placeholder="كلمة السر"><br>
+                        <input required class="inp-sign" type="password" placeholder="التحقق من كلمة السر"><br>
+                        <input required class="inp-sign" type="email" placeholder="البريد الإلكتروني"><br>
+                        <input type="checkbox" value="" required> أوافق على الشروط والأحكام <br> 
+                        <input class="inp-submit" type="submit" value="تسجيل الحساب">
+                    </form>    
                 </div>
             </div>
         </div>
