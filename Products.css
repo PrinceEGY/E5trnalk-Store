@@ -198,8 +198,7 @@ a {
 .fa-star {
   color: #f4b41a;
 }
-.stars {
+.star {
+  font-size: 28px;
   color: #f4b41a;
-  font-size: x-large;
-  margin: 0;
 }
