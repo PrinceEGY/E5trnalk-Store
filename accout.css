@@ -177,9 +177,7 @@ a {
 #col-2,
 #col-3,
 #col-4 {
-  min-width: 250px;
-  margin-bottom: 20px;
-  margin: 0 0px;
+  min-width: 200px;
 }
 #col-1 {
   flex-basis: 30%;
@@ -287,6 +285,7 @@ select:focus {
 .acc-opt:hover {
   transform: scale(105%);
   border-radius: 5%;
+  box-shadow: rgba(255, 255, 255, 0.192) 0px 0px 25px;
 }
 .inp-sign {
   padding: 15px;

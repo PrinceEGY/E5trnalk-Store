@@ -177,9 +177,7 @@ a {
 #col-2,
 #col-3,
 #col-4 {
-  min-width: 250px;
-  margin-bottom: 20px;
-  margin: 0 0px;
+  min-width: 200px;
 }
 #col-1 {
   flex-basis: 30%;

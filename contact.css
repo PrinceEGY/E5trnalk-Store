@@ -177,9 +177,7 @@ a {
 #col-2,
 #col-3,
 #col-4 {
-  min-width: 250px;
-  margin-bottom: 20px;
-  margin: 0 0px;
+  min-width: 200px;
 }
 #col-1 {
   flex-basis: 30%;
@@ -219,6 +217,7 @@ select,
   width: 200px;
   padding: 5px;
   font-size: 20px;
+  box-shadow: rgba(0, 0, 0, 0.233) 0px 0px 5px;
 }
 select:focus {
   outline: none;
@@ -302,6 +301,7 @@ select:focus {
   background-color: white;
   border: #f4b41a solid 2px;
   cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.233) 0px 0px 5px;
 }
 #submit:hover {
   transition: 250ms;
@@ -314,4 +314,5 @@ textarea {
   /* width: 200px; */
   padding: 5px;
   font-size: 20px;
+  box-shadow: rgba(0, 0, 0, 0.233) 0px 0px 5px;
 }
