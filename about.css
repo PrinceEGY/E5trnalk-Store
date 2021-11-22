@@ -261,7 +261,7 @@ select:focus {
 #location {
   border: #f4b41a 3px;
   border-style: dashed;
-  padding: 5px;
+  padding: 0px;
 }
 #location iframe {
   width: 100%;

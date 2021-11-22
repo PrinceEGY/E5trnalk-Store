@@ -124,14 +124,14 @@ a {
 }
 #featureditems {
   /* background-color: white; */
-  max-width: 1300px;
+  /* max-width: 1300px; */
   margin: auto;
   padding: 0 25px;
 }
 .img1 {
-  flex-basis: 25%;
+  /* flex-basis: 25%; */
   padding: 10px;
-  min-width: 200px;
+  width: 25%;
   margin-bottom: 50px;
   color: #143d59;
   box-shadow: rgba(255, 255, 255, 0.212) 0px 0px 5px;
