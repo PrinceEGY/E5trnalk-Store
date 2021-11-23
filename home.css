@@ -117,7 +117,7 @@ a {
   padding: 0 25px;
 }
 .img1 {
-  height: 570px;
+  /* height: 35em; */
   flex-basis: 24%;
   padding: 10px;
   min-width: 200px;
@@ -224,4 +224,27 @@ a {
   100% {
     transform: translateX(-100%);
   }
+}
+.style-1 del {
+  color: rgba(255, 0, 0, 0.5);
+  text-decoration: none;
+  position: relative;
+}
+.style-1 del::before {
+  content: " ";
+  display: block;
+  width: 100%;
+  border-top: 1px solid rgba(255, 0, 0, 0.822);
+  height: 13px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: rotate(-7deg);
+}
+.style-1 ins {
+  color: rgb(0, 139, 0);
+  font-size: large;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 3px;
 }
