@@ -72,6 +72,7 @@ a {
   background-color: rgb(97, 97, 97);
 }
 #bar ul li a:hover {
+  transition: 350ms;
   color: #f4b41a;
 }
 #featuredcatagories {
@@ -202,8 +203,8 @@ a {
   overflow: hidden;
   position: relative;
   border: #f4b41a solid;
-  border-width: 2px 0px;
-  background-color: white;
+  border-width: 3px 0px;
+  background-color: rgb(255, 250, 227);
   margin: 0px -10px 10px -10px;
   font-weight: bold;
 }
@@ -212,7 +213,7 @@ a {
   position: absolute;
   width: 100%;
   height: 100%;
-  line-height: 40px;
+  line-height: 35px;
   text-align: center;
   transform: translateX(100%);
   animation: cssmarquee 8s linear infinite;
@@ -247,4 +248,39 @@ a {
   text-decoration: none;
   font-weight: bold;
   margin-left: 3px;
+}
+#special-item-bgcolor {
+  height: 70vh;
+  /* background: radial-gradient(rgb(88, 88, 88), rgb(34, 34, 34)); */
+  background: url(Images/watch-bg.png) no-repeat center center fixed;
+  /* -webkit-background-size: cover; */
+  /* -moz-background-size: cover; */
+  /* -o-background-size: cover; */
+  background-size: cover;
+}
+#special-item {
+  margin: auto;
+  display: flex;
+  max-width: 1300px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  font-size: x-large;
+}
+#specs,
+#trailer {
+  width: 49%;
+}
+#trailer video {
+  border: #ffffff solid 2px;
+  /* border-style: ; */
+  /* border-radius: 5%; */
+  margin-top: 100px;
+  width: 100%;
+}
+#trailer video:hover {
+  transition: 1000ms;
+  transform: scale(115%);
+  border-radius: 0%;
+  cursor: pointer;
 }
