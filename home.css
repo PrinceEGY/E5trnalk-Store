@@ -204,7 +204,7 @@ a {
   border: #f4b41a solid;
   border-width: 2px 0px;
   background-color: white;
-  margin: 10px -10px;
+  margin: 0px -10px 10px -10px;
   font-weight: bold;
 }
 .cssmarquee p {
