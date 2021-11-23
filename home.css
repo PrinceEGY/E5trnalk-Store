@@ -12,7 +12,7 @@ body {
   background-image: url(Images/Untitled-3.png);
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 75vh;
+  /* min-height: 75vh; */
 }
 #headbar {
   display: flex;
@@ -64,7 +64,7 @@ a {
   background-color: #ff532b;
   color: white;
   padding: 8px 30px;
-  margin: 30px 0;
+  margin: 30px 0 120px;
   border-radius: 30px;
   transition: 250ms;
 }
@@ -250,7 +250,7 @@ a {
   margin-left: 3px;
 }
 #special-item-bgcolor {
-  height: 70vh;
+  /* height: 70vh; */
   /* background: radial-gradient(rgb(88, 88, 88), rgb(34, 34, 34)); */
   background: url(Images/watch-bg.png) no-repeat center center fixed;
   /* -webkit-background-size: cover; */
@@ -267,20 +267,22 @@ a {
   padding: 50px;
   font-size: x-large;
 }
-#specs,
-#trailer {
+#specs {
   width: 49%;
+  margin-bottom: 75px;
+  margin-left: 20px;
+}
+#trailer {
+  width: 60%;
+  margin-right: 25px;
 }
 #trailer video {
+  margin: 100px 0;
   border: #ffffff solid 2px;
-  /* border-style: ; */
-  /* border-radius: 5%; */
-  margin-top: 100px;
   width: 100%;
 }
 #trailer video:hover {
   transition: 1000ms;
   transform: scale(115%);
-  border-radius: 0%;
   cursor: pointer;
 }
