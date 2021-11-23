@@ -196,3 +196,11 @@ a {
 .fa-star {
   color: #f4b41a;
 }
+marquee {
+  margin: 0 -10px;
+  border: #f4b41a solid;
+  border-width: 2px 0px;
+  color: red;
+  font-weight: bold;
+  background-color: white;
+}
