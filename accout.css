@@ -315,3 +315,7 @@ select:focus {
   background-color: #f4b41a;
   color: #000;
 }
+.img-zoom:hover {
+  transition: 250ms;
+  transform: scale(110%);
+}

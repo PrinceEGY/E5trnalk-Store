@@ -52,11 +52,16 @@ a {
   text-decoration: none;
   color: white;
 }
+.img-zoom:hover {
+  transition: 250ms;
+  transform: scale(110%);
+}
 #container {
   max-width: 1300px;
   margin: auto;
   padding-left: 25px;
   padding-right: 25px;
+  margin-bottom: 20px;
 }
 #info {
   text-align: center;

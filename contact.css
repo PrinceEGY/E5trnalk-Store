@@ -316,3 +316,7 @@ textarea {
   font-size: 20px;
   box-shadow: rgba(0, 0, 0, 0.233) 0px 0px 5px;
 }
+.img-zoom:hover {
+  transition: 250ms;
+  transform: scale(110%);
+}

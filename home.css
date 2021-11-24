@@ -39,6 +39,11 @@ a {
   text-decoration: none;
   color: white;
 }
+.img-zoom:hover {
+  transition: 250ms;
+  transform: scale(110%);
+}
+
 #container {
   max-width: 1300px;
   margin: auto;
@@ -250,12 +255,7 @@ a {
   margin-left: 3px;
 }
 #special-item-bgcolor {
-  /* height: 70vh; */
-  /* background: radial-gradient(rgb(88, 88, 88), rgb(34, 34, 34)); */
   background: url(Images/watch-bg.png) no-repeat center center fixed;
-  /* -webkit-background-size: cover; */
-  /* -moz-background-size: cover; */
-  /* -o-background-size: cover; */
   background-size: cover;
 }
 #special-item {

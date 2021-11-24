@@ -267,3 +267,7 @@ select:focus {
   width: 100%;
   height: 500px;
 }
+.img-zoom:hover {
+  transition: 250ms;
+  transform: scale(110%);
+}
